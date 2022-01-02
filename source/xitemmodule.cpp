@@ -1,7 +1,7 @@
 #include <sstream>
 #include <iostream>
 #include <xitemmodule.h>
-#include <xitemvisitor.h>
+#include <type/xitemvisitor.h>
 
 XItemModule::XItemModule()
 {

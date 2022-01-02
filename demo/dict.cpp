@@ -1,15 +1,15 @@
 #include <iostream>
 #include <cassert>
-#include <xitemlist.h>
-#include <xitemundefined.h>
-#include <xitemint32.h>
-#include <xitemint64.h>
-#include <xitemstring.h>
-#include <xitemboolean.h>
-#include <xitemfloat.h>
 #include <xitemfunction.h>
-#include <xitemdict.h>
-#include <xitemdouble.h>
+#include <type/xitemlist.h>
+#include <type/xitemundefined.h>
+#include <type/xitemint32.h>
+#include <type/xitemint64.h>
+#include <type/xitemstring.h>
+#include <type/xitemboolean.h>
+#include <type/xitemfloat.h>
+#include <type/xitemdict.h>
+#include <type/xitemdouble.h>
 #include <xprint.h>
 
 class OutputItemVisitor : public XItemVisitor {

@@ -1,13 +1,20 @@
 let a = 3
-let b = 3.2f
+let b = 3.2
+let ms = .423423
 let c = "hello world"
 let d = [True,","]
-let e = 3.14159625
 let flag = False
-let long = L12345678
-let dict = {'name':'XScript','version':'0.01'}
+let long = 12345678
+let dict = {"name":"XScript","version":"0.01"}
+let hello = "hello \"world"
 
 ## this is x script!
+
+'''
+this is comment 
+not parse me
+
+'''
 
 function sum(a,b)
     return a + b
@@ -17,11 +24,11 @@ let total = sum(3,4)
 print total
 
 if a > b
-    print a,'>',b
+    print a,">",b
 elseif
-    print a,'=',b
+    print a,"=",b
 else
-    print a,'<',b
+    print a,"<",b
 end
 
 for i in [1->10:1]
@@ -29,9 +36,12 @@ for i in [1->10:1]
 end
 
 let index = 0
-while(True)
+while True
     index = index + 1
     if index > 10:
         break
+    end
     print index
 end
+
+let key = 3
